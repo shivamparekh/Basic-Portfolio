@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	background-image: url(file:///Users/Shivam/Desktop/Basic-Portfolio/assets/images/cork-wallet.png);
+}
+
+.header {
+	position: fixed;
+	display: inline;
+    height: 10%;
+    width: 100%;
+   	margin: 0;
+	top: 0;
+	left: 0;
+    background-color: #fff;
+    text-align: center;
+    }
+
+#nav {
+	position:absolute;
+    height: 100%;
+    padding: 60px;
+    bottom: 0;
+    margin-left: 60%;
+}
+
+li {
+    display: inline;
+
+}
+
+li a{
+    text-decoration: none;
+    display: inline;
+    padding: 17px;
+    color: #777777
+}
+
+#logo {
+	position: absolute;
+	height: 100%;
+	padding: 70px;
+	bottom:0;
+	margin-left: 10%;
+	text-align: center;
+	background: #4aaaa5;
+	}
+
+h1 {
+	font-family: 'Georgia';
+
+	color: #fff;
+}	
+
+.wrapper {
+	position: static;
+	background-color: #fff;
+	width: 55%;
+	margin-top: 10%;
+	margin-left:10%;
+	margin-right: 10%;
+	margin-bottom: 10%;
+	padding: 20px;
+}
+
+h2 {
+	font-family: 'Georgia';
+	color:#4aaaa5;
+	border-bottom: solid;
+	border-bottom-color: #cccccc;
+	padding: 2%;
+}
+
+.image {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+#content {
+}
+
+.aside {
+    position: fixed;
+    top:0; bottom:0; right:0;
+    height: 20%;
+    width: 22%;
+	margin-top: 10%;
+	margin-left:10%;
+	margin-right: 10%;
+	margin-bottom:7%;
+    background:#fff;
+    text-align: center;
+}
+
+h3 {
+	font-family: 'Georgia';
+	color:#4aaaa5;
+	padding: 2%;
+}
+
+p {
+	font-family: 'sans-serif';
+}
+
+a {
+	font-family: 'sans-serif';
+	text-decoration: none;
+}
+
+#social {
+	text-align: center;
+}
+
+#contactform {
+}
+
+#submitbutton {
+	background-color: #4aaaa5;
+	color: #fff;
+}
+
+#row {
+}
+
+#rowtext {
+}
+
+.footer {
+	position: fixed;
+	margin:0;
+	left: 0;
+	bottom: 0;
+	height:10%;
+	width: 100%;
+	background-color: #666666;
+	padding: 25px;
+	border-top-style: solid;
+	border-top-color: #4aaaa5;
+	border-width: 5px;
+	text-align: center;
+}
+
+
